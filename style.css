@@ -1,8 +1,8 @@
 .body {
     font-family: 'Roboto Mono', monospace;
     font-family: 'Roboto Serif', serif;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 300;
     line-height: 1.5;
     color: #CF9C76
 }
@@ -41,7 +41,6 @@
     list-style: none;
     padding: 0 20px;
     line-height: 50px;
-    color: #FDF4E6;
 }
 
 html {
@@ -49,6 +48,9 @@ html {
 }
 .nav-link {
     transition: .3s;
+    color: #FDF4E6;
+    padding: 0 20px;
+    line-height: 50px;
 }
 
 .main-container {
@@ -65,3 +67,10 @@ html {
     }
 }
 
+.list {
+    list-style: none;
+}
+
+.text {
+    font: 16px/1.5 Roboto Mono;
+}
