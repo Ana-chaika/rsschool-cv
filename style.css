@@ -60,6 +60,12 @@ html {
     flex: 50%;
 }
 
+@media (max-width: 768px) {
+    .section {
+        width: 100%
+    }
+}
+
 .list {
     list-style: none;
 }
@@ -69,5 +75,9 @@ html {
 }
 
 .section-title {
+    text-align: center;
+}
+
+.aligncenter {
     text-align: center;
 }
