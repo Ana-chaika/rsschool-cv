@@ -15,9 +15,6 @@
     background-color: #CF9C76;
 }
 
-.main {
-    background-color: #FDF4E6;
-}
 
 .footer {
     background-color: #CF9C76;
@@ -56,7 +53,9 @@ html {
 .main-container {
     display: flex;
     flex-wrap: wrap;
+    background-color: #FDF4E6;
 }
+
 .section {
     width: 50%;
 }
@@ -73,4 +72,8 @@ html {
 
 .text {
     font: 16px/1.5 Roboto Mono;
+}
+
+.section-title {
+    text-align: center;
 }
