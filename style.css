@@ -81,3 +81,9 @@ html {
 .aligncenter {
     text-align: center;
 }
+
+.maintext {
+    font: 16px/1.5 Roboto Mono;
+    padding-inline-start: 40px;
+}
+
