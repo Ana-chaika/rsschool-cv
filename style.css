@@ -1,0 +1,145 @@
+/*general*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    display: inline-flex;
+    width: 1440px;
+    background: #FFF;
+    flex-direction: columns;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/*header*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 90px;
+    background: #0C0C0E;
+}
+.title {
+    color: #FFF;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px;
+    margin: 20px;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    line-height: 50px;
+}
+
+.nav-link {
+    transition: .3s;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 20px 30px 0px 0px;
+    list-style: none;
+    text-decoration: none;
+}
+.icon {
+    justify-content: center;
+    margin: 31px 20px 31px 0px; 
+    width: 28px;
+    height: 28px; 
+}
+.nav {
+  display: inline-flex;
+  align-items: flex-start;
+  margin-left: 400px;
+}
+
+/*main*/
+.welcome-section {
+    width: 1440px;
+    height: 600px;
+    background-image: url(assets/welcome.jpg);
+    background-size: cover;
+}
+.welcome-bg {
+    display: flex;
+    width: 600px;
+    height: 220px;
+    justify-content: center;
+    align-items: center;
+    padding: 220px 0 160px 0px;
+}
+
+
+.welcome-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 125% */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background: #0C0C0E;
+    padding: 35px 40px;
+    margin: 220px 0 160px 0px;;
+}
+
+/*about*/
+.about {
+    width: 1440px;
+    height: 837px;
+    background: #FFF;
+  }
+  .about-title {
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-top: 20px;
+  }
+  .about-text {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    margin: 20px auto;
+  }
+  .line {
+    width: 50px;
+    height: 1px;
+    background: #0C0C0E;
+    position: relative;
+  }
+  .img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 7.5px 40px 7.5px;
+}
+.img-size {
+  width: 450px;
+  height: 560px;
+  padding: 0 12.5px;
+  }
