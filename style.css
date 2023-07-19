@@ -170,3 +170,46 @@ html {
     background-color: #0C0C0E;
     margin: 5px 5px 40px;
   }
+  /*favorites*/
+.favorites {
+  width: 1440px;
+  height: 1439px;
+  background: #FFF;
+}
+.choice {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 20px;
+}
+.text-pick {
+  color: #000;
+  text-align: left;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.radio-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-right: 45px;
+}
+.radio_input {
+  margin: 20px;
+}
+.radio_input:checked + .radio-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+input[type="radio"] {
+  accent-color: black;
+}
