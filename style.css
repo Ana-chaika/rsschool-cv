@@ -213,3 +213,92 @@ html {
 input[type="radio"] {
   accent-color: black;
 }
+/*books*/
+.book {
+  position: relative;
+  width: 550px;
+  height: 555px;
+  border: 1px solid #000;
+  margin: 20px;
+}
+.title-staff{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 15px 20px 15px;
+}
+.staff {
+  color: #000;
+  font-family: Forum;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.line2 {
+  width: 60px;
+  height: 1px;
+  background: #BB945F;
+}
+.book-name {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 266.667% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+.book-author {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 266.667% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-left: 20px;
+}
+.book-descr {
+  width: 350px;
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 266.667% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin: 20px 15px 10px 20px;
+}
+.button-buy {
+  width: 75px;
+  height: 30px;
+  border-radius: 2px;
+  border: 1px solid #0C0C0E;
+  background-color: transparent;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.button-buy:hover {
+  width: 75px;
+  height: 30px;
+  border-radius: 2px;
+  border: 1px solid #BB945F;
+  background: #BB945F;
+  transition: 1s;
+}
+
+.book-img {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  bottom: -1px;
+  right: -40px;
+}
