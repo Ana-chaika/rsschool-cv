@@ -214,6 +214,12 @@ input[type="radio"] {
   accent-color: black;
 }
 /*books*/
+.book-choice {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .book {
   position: relative;
   width: 550px;
@@ -278,13 +284,14 @@ input[type="radio"] {
   margin: 20px 15px 10px 20px;
 }
 .button-buy {
+  position: absolute;
   width: 75px;
   height: 30px;
   border-radius: 2px;
   border: 1px solid #0C0C0E;
   background-color: transparent;
-  margin-left: 20px;
-  margin-top: 15px;
+  left: 20px;
+  bottom: 15px;
 }
 .button-buy:hover {
   width: 75px;
@@ -301,4 +308,16 @@ input[type="radio"] {
   height: 300px;
   bottom: -1px;
   right: -40px;
+}
+
+.button-own {
+  position: absolute;
+  width: 75px;
+  height: 30px;
+  border-radius: 2px;
+  border: 1px solid #BB945F;
+  color: #BB945F;
+  background-color: transparent;
+  left: 20px;
+  bottom: 15px;
 }
