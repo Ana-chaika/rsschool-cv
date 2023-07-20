@@ -219,7 +219,7 @@ input[type="radio"] {
   width: 550px;
   height: 555px;
   border: 1px solid #000;
-  margin: 20px;
+  margin: 20px 60px 40px 20px;
 }
 .title-staff{
   display: flex;
