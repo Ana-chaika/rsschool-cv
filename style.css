@@ -454,3 +454,71 @@ margin: 20px 20px 40px;
   letter-spacing: 2px;
   text-transform: capitalize;
 }
+
+/*contacts*/
+.contacts {
+  width: 1440px;
+  height: 515px;
+  padding: 0px 20px;
+  
+}
+.contacts-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 201px;
+  margin-top: 20px;
+}
+.text-info {
+  margin: 0;
+}
+.info-title {
+  color: #000;
+  text-align: left;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+.info-text {
+  color: #000;
+  text-align: left;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+.phone {
+  margin-bottom: 40px;
+}
+.contact-staff {
+  margin-top: 40px;
+}
+.staff-text {
+  color: #000;
+  text-align: left;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+.map {
+  width: 696px;
+  height: 414px;
+}
