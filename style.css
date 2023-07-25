@@ -364,5 +364,93 @@ font-style: normal;
 font-weight: 400;
 line-height: 40px; /* 200% */
 letter-spacing: 2px;
-margin: 20px;
+margin: 20px 20px 40px;
+}
+
+.menu-coffee {
+  width: 1400px;
+  height: 520px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.coffee-tea {
+  width: 440px;
+  height: 520px;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.menu-title {
+  color: #BB945F;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 100% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.menu {
+  width: 197px;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.menu-line {
+  align-items: center;
+  width: 100px;
+  height: 1px;
+  background: #BB945F;
+}
+.menu-price {
+  color: #000;
+  font-family: Forum;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.point-menu {
+  width: 438px; 
+  height: 40px; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 60px; 
+  display: inline-flex
+}
+
+.dessert{
+  width: 482px;
+  height: 520px;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.menu-dessert {
+  width: 210px;
+  text-align: right;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 2px;
+  text-transform: capitalize;
 }
