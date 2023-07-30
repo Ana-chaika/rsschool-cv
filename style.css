@@ -522,3 +522,146 @@ margin: 20px 20px 40px;
   width: 696px;
   height: 414px;
 }
+
+/*library card*/
+.librarycard {
+  width: 1440px;
+  height: 614px;
+  padding: 20px;
+  margin-top: 40px;
+  position: relative;
+}
+.find-card {
+  width: 600px;
+  height: 453px;
+  position: absolute;
+  top: 121px;
+  left: 20px;
+}
+.title-card {
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-align: center;
+}
+.form-card {
+  width: 600px;
+  height: 386px;
+  margin-top: 20px;
+  padding: 20px;
+  border: 3px solid #BB945F;
+}
+.input-card {
+  width: 560px;
+  height: 272px;
+  background: #BB945F;
+  padding: 20px;
+}
+.name-card {
+  color: #000;
+  font-family: Forum;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 166.667% */
+  letter-spacing: 0.6px;
+  margin-bottom: 20px;
+}
+.input-style {
+  width: 520px;
+  height: 66px;
+  border-radius: 10px;
+  background: #FFF;
+  margin-bottom: 25px;
+  color: #8E8E8E;
+  font-family: Forum;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 166.667% */
+  letter-spacing: 0.6px;
+  padding: 8px 20px;
+ 
+}
+.button-card {
+  width: 242px;
+  height: 44px;
+  border-radius: 2px;
+  border: 1px solid #0C0C0E;
+  background-color: transparent;
+  margin: 20px 179px;
+  color: #0C0C0E;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+.button-card:hover {
+  width: 242px;
+  height: 44px;
+  border-radius: 2px;
+  border: 1px solid #BB945F;
+  background: #BB945F;
+  transition: 1s;
+}
+.get-card {
+  width: 456px;
+  height: 253px;
+  position: absolute;
+  top: 121px;
+  right: 20px;
+}
+.get-title {
+  color: #000;
+  text-align: right;
+  font-family: Forum;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.6px;
+}
+.get-text {
+  width: 456px;
+  height: 120px;
+  color: #000;
+  text-align: right;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 0.4px;
+  margin: 25px 0px;
+}
+.card-button{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+.button-get {
+  width: 75px;
+  height: 30px;
+  padding: 10px 0px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  border: 1px solid #0C0C0E;
+  background-color: transparent;
+  margin-left: 20px; 
+}
+.button-get:hover {
+  width: 75px;
+  height: 30px;
+  border-radius: 2px;
+  border: 1px solid #BB945F;
+  background: #BB945F;
+  transition: 1s;
+}
