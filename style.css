@@ -77,7 +77,6 @@ margin-left: 400px;
   position: relative;
 }
 .welcome-bg {
-  display: flex;
   width: 600px;
   height: 220px;
   justify-content: center;
