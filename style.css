@@ -11,6 +11,7 @@ html {
 .body {
   display: inline-flex;
   width: 1440px;
+  margin: 0 auto;
   background: #FFF;
   flex-direction: columns;
   justify-content: center;
